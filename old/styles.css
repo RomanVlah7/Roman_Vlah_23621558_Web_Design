@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    /* За компютър: */
+.try-resp-des{ color:blue}
+}
+
+@media only screen and (min-width: 600px) {
+    /* За таблети: */
+    .try-resp-des{
+        color: red;
+    }
+}
+
+.header{
+    background-color: #f5f5f7;
+    width: auto;
+    height: 5vh;
+    display: flex;
+}
+
+.header-text{
+    margin: auto;
+    font-size: 2vh;
+}
+
+.header-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+}
+
+.schedule {
+    margin-right:20%;
+}
+.banner {
+    background-color: white;
+    height: 5vh;
+}
+
+.banner-body {
+    font-size: 2vh;
+    display: flex;
+    height: 100%;
+}
+
+.banner-text{
+    margin: auto;
+}
+
+.big-banner {
+    background-color: #f5f5f7;
+    height: 40vh;
+    display: flex;
+}
+
+.big-banner-body{
+    display: flex;
+    font-size: 2vh;
+    width: 100%;
+    height: 100%;
+    margin-left: 20vh;
+    margin-top: 11vh;
+}
+
+.big-banner-text{
+    margin-top: 5vh;
+    font-size: 7vh;
+}
+
+.big-banner-tex-gray{
+     color: #696975;
+ }
+
+.big-banner-slot{
+    margin-left: auto;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    margin-bottom: auto;
+}
+
+.big-banner-slot-item{
+    width: 23vh;
+}
+
+.main-items-row{
+    background-color: #f5f5f7;
+    display:flex;
+}
+
+.main-items-row-body {
+    margin: auto;
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+}
+
+.main-items-img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.main-items-img-div {
+    background-color: #783737;
+    width: 30%;
+    heigth: 30%;
+    display: flex;
+    box-shadow: 2vh 4vh 12vh #b3de27;
+    border-radius: 15%;
+    overflow: hidden;
+}

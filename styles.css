@@ -20,13 +20,13 @@
 .header{
     background-color: #f4f3ef;
     width: auto;
-    height: 5vh;
+    height: 2rem;
     display: flex;
 }
 
 .header-text{
     margin: auto;
-    font-size: 2vh;
+    font-size: 0.8rem;
 }
 
 .header-body{
@@ -41,11 +41,11 @@
 }
 .banner {
     background-color: white;
-    height: 5vh;
+    height: 2rem;
 }
 
 .banner-body {
-    font-size: 2vh;
+    font-size: 0.8rem;
     display: flex;
     height: 100%;
 }
@@ -56,22 +56,23 @@
 
 .big-banner {
     background-color: #f4f3ef;
-    height: 40vh;
+    height: 20rem;
     display: flex;
 }
 
 .big-banner-body{
     display: flex;
-    font-size: 2vh;
+    font-size: 1rem;
     width: 100%;
     height: 100%;
-    margin-left: 20vh;
-    margin-top: 11vh;
+    margin: auto;
 }
 
 .big-banner-text{
-    margin-top: 5vh;
-    font-size: 7vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    font-size: 3rem;
 }
 
 .big-banner-tex-gray{
@@ -80,25 +81,26 @@
 
 .big-banner-slot{
     margin-left: auto;
-    margin-right: 10vh;
-    margin-top: 5vh;
+    margin-right: 4rem;
+    margin-top: 2rem;
     margin-bottom: auto;
 }
 
 .big-banner-slot-item{
-    width: 23vh;
+    width: 9rem;
 }
 
 .main-items-row{
-    background-color: #f4f3ef;
+    background-color: #ffffff;
     display:flex;
+    height: 7rem;
 }
 
 .main-items-row-body {
     margin: auto;
     display: flex;
-    height: 90vh;
-    width: 90vw;
+    height: 40rem;
+    width: 45rem;
 }
 
 .main-items-img{
@@ -110,9 +112,198 @@
 .main-items-img-div {
     background-color: #783737;
     width: 30%;
-    heigth: 30%;
+    height : 30%;
     display: flex;
-    box-shadow: 2vh 4vh 12vh #b3de27;
+    box-shadow: 1rem 3rem 5rem #b3de27;
     border-radius: 15%;
     overflow: hidden;
+}
+
+.banner-image {
+    background-image: url("images/devices.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.big-banner-button {
+    height: 2rem;
+    width: 10rem;
+    margin: auto;
+    background-color: #f4f3ef;
+}
+
+.big-banner-button-button{
+    height: 2rem;
+    width: 10rem;
+    margin: auto;
+    background-color: #f4f3ef;
+    border-radius: 0.5rem ;
+}
+
+.big-banner-small-text {
+    font-size: 1rem;
+    color: #6e6e6e;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-items-row-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.product{
+    border-radius: 2rem;
+    background-color: #f5f5f7;
+    width: 15rem;
+    height: 17rem;
+    margin-right: 5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0rem 0rem 1rem #dad8d8;
+}
+
+.product img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.product1 {
+    max-width :80%;
+    max-height: 80%;
+}
+
+.product a{
+    margin-right: auto;
+    margin-left: 2rem;
+    display: block;
+}
+
+.scroll-bar-body {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.next-button {
+}
+
+.prev-button {
+}
+
+.scroll-bar {
+    width:100%;
+    display: flex;
+}
+
+.poster {
+    margin-bottom: 1rem;
+    height: auto;
+    display: flex;
+
+}
+
+.poster img {
+    width: 65%;
+    border-radius: 2rem;
+}
+
+.poster-text {
+    font-size: 50px;
+    margin: auto;
+}
+
+.poster-body {
+    margin-top: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.poster-item {
+    height: 23rem;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.poster-2 {
+    height: auto;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.poster-2 img {
+    width: 45%;
+    border-radius: 2rem;
+    right: 0;
+}
+
+.poster-text-2 {
+    font-size: 50px;
+    margin: auto;
+}
+
+.poster-body-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+}
+
+.poster-item-2 {
+    heigth: 23rem;
+    display: flex;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.scroll-bar-2 {
+    width:100%;
+    display: flex;
+}
+
+.scroll-bar-body-2 {
+    margin-top: 20rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5rem;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.big-banner-2 img{
+    width: 50%
 }

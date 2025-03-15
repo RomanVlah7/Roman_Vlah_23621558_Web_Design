@@ -114,7 +114,7 @@
     }
 
     .banner-image {
-        background-image: url("images/devices.jpg");
+        background-image: url("../images/devices.jpg");
         height: 100%;
         width: 100%;
     }
@@ -411,7 +411,7 @@
     }
 
     .banner-image {
-        background-image: url("images/devices.jpg");
+        background-image: url("../images/devices.jpg");
         height: 100%;
         width: 100%;
     }
@@ -709,7 +709,7 @@
     }
 
     .banner-image {
-        background-image: url("images/devices.jpg");
+        background-image: url("../images/devices.jpg");
         height: 100%;
         width: 100%;
     }
@@ -1007,7 +1007,7 @@
     }
 
     .banner-image {
-        background-image: url("images/devices.jpg");
+        background-image: url("../images/devices.jpg");
         height: 100%;
         width: 100%;
     }
@@ -1305,7 +1305,7 @@
     }
 
     .banner-image {
-        background-image: url("images/devices.jpg");
+        background-image: url("../images/devices.jpg");
         height: 100%;
         width: 100%;
     }

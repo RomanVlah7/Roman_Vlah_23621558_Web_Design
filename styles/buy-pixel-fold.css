@@ -1,9 +1,12 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Bahnschrift', sans-serif;
 }
+
 
 @media only screen and (min-width: 300px) {
     .header {
@@ -151,12 +154,12 @@
     .product {
         border-radius: 2rem;
         background-color: #f5f5f7;
-        width: 10rem;
-        height: 11rem;
-        margin-right: 3rem;
-        margin-left: 1rem;
-        margin-top: 5rem;
-        margin-bottom: 3rem;
+        width: 0rem;
+        height: 0rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
         box-shadow: 0rem 0rem 1rem #dad8d8;
     }
 
@@ -172,7 +175,8 @@
     }
 
     .product a {
-        margin-left: 3rem;
+        margin-left: 0rem;
+        font-size: 0px;
     }
 
     .scroll-bar-body {
@@ -336,25 +340,25 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        height: 38%;
+        height: 31%;
     }
 
     .my-css {
 
     }
 
-    .sector-1-button {
+    .header-button {
         width: 5rem;
         height: 2rem;
         margin-left: 1rem;
         margin-top: 0rem;
-        border-radius: 20px;
-        border-color: #737373;
+        border-radius: 10px;
+        border-color: #3e7fd9;
         border-style: solid;
-        background-color: #737373;
+        background-color: #3e7fd9;
     }
 
-    .sector-1-button a {
+    .header-button a {
         margin-top: 0rem;
         margin-left: 1.2rem;
         font-size: 1.3rem;
@@ -439,7 +443,7 @@
 
     .sector-2-item {
         background-color: #f5f3ef;
-        width: 68%;
+        width: 79%;
         height: 8rem;
         margin-left: auto;
         margin-right: auto;
@@ -450,18 +454,18 @@
 
     .sector-2-item-text-2 {
         margin-top: 1rem;
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-bottom: 1rem;
-        margin-left: 3rem;
+        margin-left: 1rem;
         margin-right: 0rem;
         font-weight: bold;
     }
 
     .sector-2-item-text-1 {
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
-        margin-left: -18rem;
+        margin-left: -5rem;
         margin-right: 1rem;
     }
 
@@ -498,7 +502,7 @@
 
     .sector-3-item {
         background-color: #f5f3ef;
-        width: 68%;
+        width: 80%;
         height: 8rem;
         margin-left: auto;
         margin-right: auto;
@@ -508,10 +512,10 @@
     }
 
     .sector-2-item-text-3 {
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-top: 5rem;
-        margin-bottom: 1rem;
-        margin-left: -7.5rem;
+        margin-bottom: 0rem;
+        margin-left: -5.5rem;
         margin-right: 0rem;
     }
 
@@ -565,6 +569,7 @@
         margin-right: auto;
         margin-left: auto;
         font-size: 5rem;
+        max-width: 45rem;
         font-weight: bold;
     }
 
@@ -1005,18 +1010,18 @@
 
     }
 
-    .sector-1-button {
+    .header-button {
         width: 6rem;
         height: 3rem;
         margin-left: 2rem;
         margin-top: 0rem;
-        border-radius: 20px;
-        border-color: #737373;
+        border-radius: 10px;
+        border-color: #3e7fd9;
         border-style: solid;
-        background-color: #737373;
+        background-color: #3e7fd9;
     }
 
-    .sector-1-button a {
+    .header-button a {
         margin-top: 0.3rem;
         margin-left: 1.5rem;
         font-size: 1.5rem;
@@ -1123,7 +1128,7 @@
         font-size: 1rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
-        margin-left: -18rem;
+        margin-left: -7rem;
         margin-right: 1rem;
     }
 
@@ -1225,6 +1230,7 @@
     .sector-4-text a {
         font-size: 3rem;
         font-weight: bold;
+        max-width: 45rem;
     }
 
     .sector-4-text-2 {
@@ -1662,18 +1668,18 @@
 
     }
 
-    .sector-1-button {
+    .header-button {
         width: 6rem;
         height: 3rem;
         margin-left: 2rem;
         margin-top: 0rem;
-        border-radius: 20px;
-        border-color: #737373;
+        border-radius: 10px;
+        border-color: #3e7fd9;
         border-style: solid;
-        background-color: #737373;
+        background-color: #3e7fd9;
     }
 
-    .sector-1-button a {
+    .header-button a {
         margin-top: 0.3rem;
         margin-left: 1.5rem;
         font-size: 1.5rem;
@@ -1780,7 +1786,7 @@
         font-size: 1rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
-        margin-left: -18rem;
+        margin-left: -7rem;
         margin-right: 1rem;
     }
 
@@ -1882,6 +1888,7 @@
     .sector-4-text a {
         font-size: 3rem;
         font-weight: bold;
+        max-width: 45rem;
     }
 
     .sector-4-text-2 {
@@ -2319,18 +2326,18 @@
 
     }
 
-    .sector-1-button {
+    .header-button {
         width: 6rem;
         height: 3rem;
         margin-left: 2rem;
         margin-top: 0rem;
-        border-radius: 20px;
-        border-color: #737373;
+        border-radius: 10px;
+        border-color: #3e7fd9;
         border-style: solid;
-        background-color: #737373;
+        background-color: #3e7fd9;
     }
 
-    .sector-1-button a {
+    .header-button a {
         margin-top: 0.3rem;
         margin-left: 1.5rem;
         font-size: 1.5rem;
@@ -2437,7 +2444,7 @@
         font-size: 1rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
-        margin-left: -18rem;
+        margin-left: -7rem;
         margin-right: 1rem;
     }
 
@@ -2539,6 +2546,7 @@
     .sector-4-text a {
         font-size: 4rem;
         font-weight: bold;
+        max-width: 45rem;
     }
 
     .sector-4-text-2 {
@@ -2784,14 +2792,14 @@
 
     .product {
         border-radius: 2rem;
-        background-color: #f5f5f7;
+        background-color: #ffffff;
         width: 10rem;
         height: 11rem;
         margin-right: 3rem;
         margin-left: 1rem;
         margin-top: 5rem;
         margin-bottom: 3rem;
-        box-shadow: 0rem 0rem 1rem #dad8d8;
+        box-shadow: 0rem 0rem 1rem #ffffff;
     }
 
     .product img {
@@ -2939,6 +2947,22 @@
         margin-right: auto;
     }
 
+    .sector-1-button {
+        background-color: #3e7fd9;
+        border-radius: 10px;
+        border-width: 0px;
+        width: 10rem;
+        height: 3rem;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .sector-1-button a {
+        padding-top: 1rem;
+        padding-left: 4rem;
+        text-decoration: none;
+    }
+
     .sector-1-body {
         background-color: #ffffff;
         width: 100%;
@@ -2949,8 +2973,8 @@
 
     .sector-1-item {
         background-color: #f5f3ef;
-        width: 79%;
-        height: 25rem;
+        width: 95%;
+        height: 35rem;
         margin-left: auto;
         margin-right: auto;
         margin-top: 2rem;
@@ -2959,7 +2983,7 @@
     }
 
     .sector-1-item a {
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
         display: grid;
@@ -2969,32 +2993,32 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        height: 84%;
+        height: 99%;
     }
 
     .my-css {
 
     }
 
-    .sector-1-button {
+    .header-button {
         width: 6rem;
         height: 3rem;
         margin-left: 4rem;
         margin-top: 0rem;
-        border-radius: 20px;
-        border-color: #737373;
+        border-radius: 10px;
+        border-color: #3e7fd9;
         border-style: solid;
-        background-color: #737373;
+        background-color: #3e7fd9;
     }
 
-    .sector-1-button a {
+    .header-button a {
         margin-top: 0.3rem;
         margin-left: 1.5rem;
         font-size: 1.5rem;
     }
 
     .sector-1-text-1 {
-        font-size: 2rem;
+        font-size: 5rem;
         margin-left: 4rem;
         margin-top: 3rem;
         font-weight: bold;
@@ -3072,7 +3096,7 @@
 
     .sector-2-item {
         background-color: #f5f3ef;
-        width: 68%;
+        width: 71%;
         height: 8rem;
         margin-left: auto;
         margin-right: auto;
@@ -3090,11 +3114,28 @@
         font-weight: bold;
     }
 
+    .sector-2-item-text-2-top {
+        margin-top: 1rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        margin-right: 0rem;
+        font-weight: bold;
+    }
+
     .sector-2-item-text-1 {
         font-size: 1rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
         margin-left: -7rem;
+        margin-right: 1rem;
+    }
+
+    .sector-2-item-text-1-top {
+        font-size: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-left: -19.5rem;
         margin-right: 1rem;
     }
 
@@ -3104,6 +3145,14 @@
         margin-bottom: 1px;
         margin-left: 35px;
         margin-right: 0px;
+    }
+
+    .sector-2-item-text-3-top {
+        font-size: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        margin-left: -14.5rem;
+        margin-right: 0rem;
     }
 
     .sector-2-item-text-3 {
@@ -3131,7 +3180,7 @@
 
     .sector-3-item {
         background-color: #f5f3ef;
-        width: 68%;
+        width: 45%;
         height: 8rem;
         margin-left: auto;
         margin-right: auto;
@@ -3197,6 +3246,7 @@
         margin-bottom: 3rem;
         margin-right: auto;
         margin-left: auto;
+        max-width:47rem;
         font-size: 5rem;
         font-weight: bold;
     }
@@ -3636,18 +3686,18 @@
 
     }
 
-    .sector-1-button {
+    .header-button {
         width: 6rem;
         height: 3rem;
         margin-left: 4rem;
         margin-top: 0rem;
-        border-radius: 20px;
-        border-color: #737373;
+        border-radius: 10px;
+        border-color: #3e7fd9;
         border-style: solid;
-        background-color: #737373;
+        background-color: #3e7fd9;
     }
 
-    .sector-1-button a {
+    .header-button a {
         margin-top: 0.3rem;
         margin-left: 1.5rem;
         font-size: 1.5rem;
@@ -3754,7 +3804,7 @@
         font-size: 1rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
-        margin-left: -18rem;
+        margin-left: -7rem;
         margin-right: 1rem;
     }
 
@@ -3858,6 +3908,7 @@
         margin-right: auto;
         margin-left: auto;
         font-size: 5rem;
+        max-width: 47rem;
         font-weight: bold;
     }
 
@@ -3956,4 +4007,7 @@
         margin-left: 31%;
         font-size: 4rem;
     }
+}
+
+.buy-button {
 }

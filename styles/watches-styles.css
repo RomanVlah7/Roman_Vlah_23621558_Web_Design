@@ -23,29 +23,10 @@
         color: #b6b6b6;
     }
 
-    .header-button {
-        width: 8rem;
-        height: 1.5rem;
-        margin-top: auto;
-        margin-bottom: auto;
-        border-radius: 20px;
-        border-width: 2px;
-        border-color: #1967d2;
-        border-style: solid;
-        background-color: #edf3fb;
-        display: flex;
-    }
-
     .header-body {
         margin-left: auto;
         margin-right: auto;
         width: 70%;
-        display: flex;
-    }
-
-    .header-body a {
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
     }
 
@@ -62,8 +43,8 @@
         font-size: 0.8rem;
         display: flex;
         height: 100%;
-        background-color: #817c7c;
-        color: #b6b6b6
+        background-color: #dad8d8;
+        color: #dad8d8
     }
 
     .banner-text {
@@ -174,11 +155,11 @@
     .product {
         border-radius: 2rem;
         background-color: #f5f5f7;
-        width: 6rem;
-        height: 8rem;
+        width: 10rem;
+        height: 12rem;
         margin-right: 1rem;
         margin-left: 1rem;
-        margin-top: 1rem;
+        margin-top: 0rem;
         margin-bottom: 1rem;
         box-shadow: 0rem 0rem 1rem #dad8d8;
     }
@@ -359,8 +340,8 @@
         font-size: 0.8rem;
         display: flex;
         height: 100%;
-        background-color: #817c7c;
-        color: #b6b6b6
+        background-color: #dad8d8;
+        color: #dad8d8
     }
 
     .banner-text {
@@ -472,7 +453,7 @@
         border-radius: 2rem;
         background-color: #f5f5f7;
         width: 6rem;
-        height: 8rem;
+        height: 12rem;
         margin-right: 1rem;
         margin-left: 0rem;
         margin-top: 1rem;
@@ -657,8 +638,8 @@
         font-size: 0.8rem;
         display: flex;
         height: 100%;
-        background-color: #817c7c;
-        color: #b6b6b6
+        background-color: #dad8d8;
+        color: #dad8d8
     }
 
     .banner-text {
@@ -770,12 +751,12 @@
         border-radius: 2rem;
         background-color: #f5f5f7;
         width: 7rem;
-        height: 9rem;
+        height: 12rem;
         margin-right: 1rem;
         margin-left: 1rem;
         margin-top: 1rem;
-        margin-bottom: 1rem;
-        box-shadow: 0rem 0rem 1rem #dad8d8;
+        margin-bottom: -1rem;
+        box-shadow: 0rem 0rem 1rem #dad8d8;;
     }
 
     .product img {
@@ -918,33 +899,6 @@
     .big-banner-2 img {
         width: 50%
     }
-
-    .poster-3 {
-        height: 350px;
-        display: flex;
-        margin-bottom: 5rem;
-    }
-
-    .poster-3 img {
-        width: auto;
-        border-radius: 2rem;
-        height: 128%;
-    }
-
-    .poster-3-text {
-        font-size: 50px;
-        margin: auto;
-    }
-
-    .poster-3-body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .poster-3-item {
-        height: 17rem;
-        display: flex;
-    }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -956,17 +910,14 @@
         display: flex;
     }
 
-    header a {
-        margin: auto;
-        font-size: 0.8rem;
-        margin: auto;
-        color: green;
-    }
-
     .header-text {
         margin: auto;
         font-size: 0.8rem;
         color: #b6b6b6;
+    }
+
+    .header-img{
+        height: 90%
     }
 
     .header-body {
@@ -989,8 +940,8 @@
         font-size: 0.8rem;
         display: flex;
         height: 100%;
-        background-color: #817c7c;
-        color: #b6b6b6
+        background-color: #dad8d8;
+        color: #dad8d8
     }
 
     .banner-text {
@@ -1102,12 +1053,12 @@
         border-radius: 2rem;
         background-color: #f5f5f7;
         width: 12rem;
-        height: 15rem;
+        height: 17rem;
         margin-right: 1rem;
         margin-left: 1rem;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        box-shadow: 0rem 0rem 1rem #ffffff;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0rem 0rem 1rem #dad8d8;
     }
 
     .product img {
@@ -1134,6 +1085,10 @@
         display: flex;
         overflow-x: auto;
         scroll-behavior: smooth;
+    }
+
+    .scroll-bar-text-descr{
+        color: gray;
     }
 
     .next-button {
@@ -1175,9 +1130,8 @@
     }
 
     .poster-2 {
-        height: 430px;
+        height: 900px;
         display: flex;
-
     }
 
     .poster-2 img {
@@ -1199,38 +1153,10 @@
     .poster-body-2 {
         margin-left: auto;
         margin-right: auto;
-        margin-top: -3rem;
+        margin-top: 10rem;
     }
 
     .poster-item-2 {
-        height: 17rem;
-        display: flex;
-    }
-
-
-    .poster-3 {
-        height: 550px;
-        display: flex;
-        margin-bottom: 5rem;
-    }
-
-    .poster-3 img {
-        width: auto;
-        border-radius: 2rem;
-        height: 200%;
-    }
-
-    .poster-3-text {
-        font-size: 50px;
-        margin: auto;
-    }
-
-    .poster-3-body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .poster-3-item {
         height: 17rem;
         display: flex;
     }
@@ -1290,10 +1216,6 @@
         display: flex;
     }
 
-    .header-img{
-        height: 90%
-    }
-
     .header-text {
         margin: auto;
         font-size: 1.5rem;
@@ -1320,8 +1242,8 @@
         font-size: 0.8rem;
         display: flex;
         height: 100%;
-        background-color: #817c7c;
-        color: #b6b6b6
+        background-color: #dad8d8;
+        color: #dad8d8
     }
 
     .banner-text {

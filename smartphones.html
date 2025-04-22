@@ -1,122 +1,276 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог товаров</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-
-        /* Шапка */
-        .header {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        /* Контейнер сетки */
-        .catalog-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        /* Стиль карточки товара */
-        .product-card {
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            padding: 15px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .product-card img {
-            max-width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-
-        .product-name {
-            margin: 10px 0;
-            font-size: 1.1rem;
-        }
-
-        .product-price {
-            color: #2ecc71;
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-
-        /* Подвал */
-        .footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="icon" type="image/png" href="images/favicon_store.png">
+    <link rel="stylesheet" href="styles/smartphones-styles.css">
+    <title>Smartphones</title>
 </head>
 <body>
-<header class="header">
-    <h1>Каталог товаров</h1>
-</header>
 
-<div class="catalog-grid">
-    <!-- Пример карточки товара (повторить 80 раз для 4x20 сетки) -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Товар">
-        <div class="product-name">Название товара 1</div>
-        <div class="product-price">999 ₽</div>
-    </div>
-
-    <!-- Пример заполнения нескольких карточек -->
-    <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Товар">
-        <div class="product-name">Название товара 2</div>
-        <div class="product-price">1499 ₽</div>
-    </div>
-
-    <!-- Для полного каталога нужно добавить еще 78 карточек -->
-    <!-- Можно использовать JavaScript для динамической генерации -->
+<div class ="header">
+  <div class ="header-body">
+    <a href="main-page.html"> <img class="header-img"  src="images/favicon_store.png"></a>
+    <a class ="header-text" href="main-page.html">Pro Mobile Shop</a>
+    <a class ="header-text" href="laptops.html">Лаптопи</a>
+    <a class ="header-text" href="smartphones.html">Смарт телефони</a>
+    <a class ="header-text" href="headphones.html">Слушалки</a>
+    <a class="header-text" href="watches.html">Смарт часовници</a>
+  </div>
 </div>
 
-<footer class="footer">
-    <p>&copy; 2025 Каталог товаров. Все права защищены.</p>
-</footer>
+<div>
+  <img class="banner-image" src="images/meet-new-smartphones-bg.png">
+</div>
 
-<script>
-    // Пример JavaScript для генерации всех 80 карточек
-    const grid = document.querySelector('.catalog-grid');
-    const cardTemplate = `
-            <div class="product-card">
-                <img src="https://via.placeholder.com/200" alt="Товар">
-                <div class="product-name">Название товара</div>
-                <div class="product-price">999 ₽</div>
-            </div>
-        `;
+<div class="main-items-row">
+  <div class="main-items-row-header">
+    <a>Нови смартфони, пълни с иновации</a>
+  </div>
+</div>
 
-    // Генерация 80 карточек (4x20)
-    for (let i = 0; i < 80; i++) {
-        grid.innerHTML += cardTemplate.replace('Название товара', `Товар ${i + 1}`)
-            .replace('999', `${500 + i * 100}`);
-    }
-</script>
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/apple-iphone-15-blue.webp">
+      <a href="#">Apple iPhone 15</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">1499 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/apple-iphone-15-pink.webp">
+      <a href="#">Apple iPhone 15</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">1499 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/redmi-note-13.webp">
+      <a href="#">Xiaomi Redmi Note 13</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|64 GB ROM</a>
+      <a class="scroll-bar-text-price">519 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/apple-iphone-12-black.webp">
+      <a href="#">Apple iPhone 12</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|128 GB ROM</a>
+      <a class="scroll-bar-text-price">999 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/samsung-galaxy-s-24-ultra.webp">
+      <a href="#">Samsung Galaxy S24 </a>
+      <a class="scroll-bar-text-descr">12 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">2619 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/redmi-note-13-black.webp">
+      <a href="#">Xiaomi Redmi Note 13</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|226 GB ROM</a>
+      <a class="scroll-bar-text-price">519 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/samsung_galaxy_a54_black.webp">
+      <a href="#">Samsung Galaxy Note A12</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|32 GB ROM</a>
+      <a class="scroll-bar-text-price">369 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/enter-apple-iphone-15-pro-max-blue-tittan.webp">
+      <a href="#">Apple iPhone 13 Pro Max</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|256 GB ROM</a>
+      <a class="scroll-bar-text-price">1499 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/poco-x6-pro.webp">
+      <a href="#">Poco X6 Pro</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">549 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/samsung_galaxy_a54_black.webp">
+      <a href="#">Samsung Galaxy A55</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|128 GB ROM</a>
+      <a class="scroll-bar-text-price">632 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/xiaomi-redmi-note-9-4g.webp">
+      <a href="#">Xiaomi Redmi Note 9</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|64 GB ROM</a>
+      <a class="scroll-bar-text-price">459 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/xiaomi-redmi-9c-black.webp">
+      <a href="#">Xiaomi Redmi 10 C</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|32 GB ROM</a>
+      <a class="scroll-bar-text-price">329 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/samsung_galaxy_a12_red.webp">
+      <a href="#">Samsung Galaxy A34 </a>
+      <a class="scroll-bar-text-descr">4 GB RAM|128 GB ROM</a>
+      <a class="scroll-bar-text-price">259 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/xiaomi-redmi-note-13-pro-plus.webp">
+      <a href="#">Xiaomi Redmi Note 13 Pro+</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">859 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/enter-realme-10.webp">
+      <a href="#">Realme 10 4G</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|128 GB ROM</a>
+      <a class="scroll-bar-text-price">459 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/realme-c25y-4g.webp">
+      <a href="#">Realme C21Y</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|32 GB ROM</a>
+      <a class="scroll-bar-text-price">259 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/oneplus-nord-ce-5g-5g.webp">
+      <a href="#">OmePlus Nord CE 5G</a>
+      <a class="scroll-bar-text-descr">12 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">829 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/poco-x6-pro.webp">
+      <a href="#">Poco M6 Pro</a>
+      <a class="scroll-bar-text-descr">4 GB RAM|64 GB ROM</a>
+      <a class="scroll-bar-text-price">659 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/enter-google-pixel-8-pro.webp">
+      <a href="#">Google Pixel 8 Pro</a>
+      <a class="scroll-bar-text-descr">12 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">1059 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/enter-asus-zenfone-9-5g-ai2202.webp">
+      <a href="#">Asus ZenPhone 9</a>
+      <a class="scroll-bar-text-descr">12 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">1599 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/oneplus-nord-ce-5g-5g.webp">
+      <a href="#">OmePlus Nord CE 5G</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">459 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/xiaomi-redmi-9c-black.webp">
+      <a href="#">Xiaomi Redmi 10 C</a>
+      <a class="scroll-bar-text-descr">12 GB RAM|128 GB ROM</a>
+      <a class="scroll-bar-text-price">259 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/samsung_galaxy_a12_red.webp">
+      <a href="#">Samsung Galaxy A34 </a>
+      <a class="scroll-bar-text-descr">6 GB RAM|256 GB ROM</a>
+      <a class="scroll-bar-text-price">259 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/apple-iphone-12-black.webp">
+      <a href="#">Apple iPhone 12</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|256 GB ROM</a>
+      <a class="scroll-bar-text-price">1099 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/apple-iphone-15-blue.webp">
+      <a href="#">Apple iPhone 15</a>
+      <a class="scroll-bar-text-descr">4 GB RAM|256 GB ROM</a>
+      <a class="scroll-bar-text-price">1599 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/apple-iphone-15-pink.webp">
+      <a href="#">Apple iPhone 15</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">1599 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/redmi-note-13.webp">
+      <a href="#">Xiaomi Redmi Note 13</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|128 GB ROM</a>
+      <a class="scroll-bar-text-price">659 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/apple-iphone-12-black.webp">
+      <a href="#">Apple iPhone 12</a>
+      <a class="scroll-bar-text-descr">12 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">1099 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="scroll-bar-2">
+  <div class="scroll-bar-body-2">
+    <div class="product">
+      <img src="images/samsung-galaxy-s-24-ultra.webp">
+      <a href="#">Samsung Galaxy S24 </a>
+      <a class="scroll-bar-text-descr">12 GB RAM|512 GB ROM</a>
+      <a class="scroll-bar-text-price">2599 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/redmi-note-13-black.webp">
+      <a href="#">Xiaomi Redmi Note 13</a>
+      <a class="scroll-bar-text-descr">6 GB RAM|256 GB ROM</a>
+      <a class="scroll-bar-text-price">659 BGN</a>
+    </div>
+    <div class="product">
+      <img class="product1" src="images/samsung_galaxy_a54_black.webp">
+      <a href="#">Samsung Galaxy Note A12</a>
+      <a class="scroll-bar-text-descr">2GB RAM|32 GB ROM</a>
+      <a class="scroll-bar-text-price">259 BGN</a>
+    </div>
+    <div class="product">
+      <img src="images/enter-apple-iphone-15-pro-max-blue-tittan.webp">
+      <a href="#">Apple iPhone 13 Pro Max</a>
+      <a class="scroll-bar-text-descr">2 GB RAM|512 GB RAM</a>
+      <a class="scroll-bar-text-price">1399 BGN</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 PC Hardware-shop. Всички права запазени.</p>
+    <div class="footer-links">
+      <a href="#">Общи условия</a>
+      <a href="#">Политика за защита на личните данни</a>
+      <a href="#">Контакти</a>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

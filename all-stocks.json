@@ -1,0 +1,584 @@
+[
+  {
+    "stockName": "Acer Nitro 5",
+    "imgSrc": "images/laptop_6575dfrtg_1729257304113-sm-webp.webp",
+    "specs": "i 5 5580|GTX 1060",
+    "price": "1559 BGN"
+  },
+  {
+    "stockName": "Lenovo Legion 5 Pro",
+    "imgSrc": "images/laptop7s4_1716902632657_1728656323635-sm-webp.webp",
+    "specs": "AMD 7 5550|GF 4060",
+    "price": "2346 BGN"
+  },
+  {
+    "stockName": "Asus Vivobook",
+    "imgSrc": "images/laptop_34yrheghtern_1720015515927-sm-webp.webp",
+    "specs": "i 5 4654|Intel UHD",
+    "price": "1479 BGN"
+  },
+  {
+    "stockName": "Asus Rog Ziphirus",
+    "imgSrc": "images/laptop_547dsfgh_1723463125478-sm-webp.webp",
+    "specs": "AMD 5 5600H|GF 3050",
+    "price": "2999 BGN"
+  },
+  {
+    "stockName": "Mac Book Pro 16",
+    "imgSrc": "images/laptop_enter-apple-macbook-pro-16-2023-19167960.webp",
+    "specs": "Apple M2 PRO",
+    "price": "4999 BGN"
+  },
+  {
+    "stockName": "HP Pavilion",
+    "imgSrc": "images/laptop_darwin-laptop-lenovo-ideapad-slim-3-15iah8-arctic-gray-341934_1700727213919-sm-webp.webp",
+    "specs": "i3 7464|Intel UHD 620",
+    "price": "2199 BGN"
+  },
+  {
+    "stockName": "Lenovo IDE Pad Slim",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-slim-5-16imh9-666694.webp",
+    "specs": "i3 7464|Intel UHD 620",
+    "price": "1499 BGN"
+  },
+  {
+    "stockName": "Acer Aspire 3",
+    "imgSrc": "images/laptop_657ftgyhju_1725370279460-sm-webp.webp",
+    "specs": "i3 3453|Intel UHD",
+    "price": "1699 BGN"
+  },
+  {
+    "stockName": "Asus Vivobook 13",
+    "imgSrc": "images/laptop_enter-asus-vivobook-14-k413ea-050.webp",
+    "specs": "AMD5 5600|Vega 5",
+    "price": "1899 BGN"
+  },
+  {
+    "stockName": "Asus Vivobook",
+    "imgSrc": "images/laptop_enter-asus-vivobook-go-15-e1504fa-bq832w-358187.webp",
+    "specs": "AMD5 5600|Vega 5",
+    "price": "1699 BGN"
+  },
+  {
+    "stockName": "Asus Zen Book 14",
+    "imgSrc": "images/laptop_enter-asus-zenbook-14-oled-ux3405ma-qd652-404956.webp",
+    "specs": "AMD7 5878|Vega 7",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "Lenovo IDE Pad 5",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-5-15alc05t1re-107261.webp",
+    "specs": "i3 5633| Intel UHD 340",
+    "price": "1199 BGN"
+  },
+  {
+    "stockName": "Asus Rog Stricks 16",
+    "imgSrc": "images/laptopr_567edrf_1723462947405-sm-webp.webp",
+    "specs": "i5 7800H|GF 4050",
+    "price": "4299 BGN"
+  },
+  {
+    "stockName": "Asus Tuf Gaming 6",
+    "imgSrc": "images/laptop_rftgyhju_1727700598854-sm-webp.webp",
+    "specs": "i5 7800H|GF 4050",
+    "price": "4299 BGN"
+  },
+  {
+    "stockName": "IDE PAd Slim %",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-slim-5-16imh9-666694.webp",
+    "specs": "i5 2354|Intel UHD 340",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "IDE Pag Gaming 5",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-gaming-3-15ach6-8urk-382574.webp",
+    "specs": "AMD5 5600H|GF 2080",
+    "price": "1999 BGN"
+  },
+  {
+    "stockName": "Acer Nitro 5",
+    "imgSrc": "images/laptop_6575dfrtg_1729257304113-sm-webp.webp",
+    "specs": "i 5 5580|GTX 1060",
+    "price": "1559 BGN"
+  },
+  {
+    "stockName": "Lenovo Legion 5 Pro",
+    "imgSrc": "images/laptop7s4_1716902632657_1728656323635-sm-webp.webp",
+    "specs": "AMD 7 5550|GF 4060",
+    "price": "2346 BGN"
+  },
+  {
+    "stockName": "Asus Vivobook",
+    "imgSrc": "images/laptop_34yrheghtern_1720015515927-sm-webp.webp",
+    "specs": "i 5 4654|Intel UHD",
+    "price": "1479 BGN"
+  },
+  {
+    "stockName": "Asus Rog Ziphirus",
+    "imgSrc": "images/laptop_547dsfgh_1723463125478-sm-webp.webp",
+    "specs": "AMD 5 5600H|GF 3050",
+    "price": "2999 BGN"
+  },
+  {
+    "stockName": "Mac Book Pro 16",
+    "imgSrc": "images/laptop_enter-apple-macbook-pro-16-2023-19167960.webp",
+    "specs": "Apple M2 PRO",
+    "price": "4999 BGN"
+  },
+  {
+    "stockName": "HP Pavilion",
+    "imgSrc": "images/laptop_darwin-laptop-lenovo-ideapad-slim-3-15iah8-arctic-gray-341934_1700727213919-sm-webp.webp",
+    "specs": "i3 7464|Intel UHD 620",
+    "price": "2199 BGN"
+  },
+  {
+    "stockName": "Lenovo IDE Pad Slim",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-slim-5-16imh9-666694.webp",
+    "specs": "i3 7464|Intel UHD 620",
+    "price": "1499 BGN"
+  },
+  {
+    "stockName": "Acer Aspire 3",
+    "imgSrc": "images/laptop_657ftgyhju_1725370279460-sm-webp.webp",
+    "specs": "i3 3453|Intel UHD",
+    "price": "1699 BGN"
+  },
+  {
+    "stockName": "Asus Vivobook 13",
+    "imgSrc": "images/laptop_enter-asus-vivobook-14-k413ea-050.webp",
+    "specs": "AMD5 5600|Vega 5",
+    "price": "1899 BGN"
+  },
+  {
+    "stockName": "Asus Vivobook",
+    "imgSrc": "images/laptop_enter-asus-vivobook-go-15-e1504fa-bq832w-358187.webp",
+    "specs": "AMD5 5600|Vega 5",
+    "price": "1699 BGN"
+  },
+  {
+    "stockName": "Asus Zen Book 14",
+    "imgSrc": "images/laptop_enter-asus-zenbook-14-oled-ux3405ma-qd652-404956.webp",
+    "specs": "AMD7 5878|Vega 7",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "Lenovo IDE Pad 5",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-5-15alc05t1re-107261.webp",
+    "specs": "i3 5633| Intel UHD 340",
+    "price": "1199 BGN"
+  },
+  {
+    "stockName": "Asus Rog Stricks 16",
+    "imgSrc": "images/laptopr_567edrf_1723462947405-sm-webp.webp",
+    "specs": "i5 7800H|GF 4050",
+    "price": "4299 BGN"
+  },
+  {
+    "stockName": "Asus Tuf Gaming 6",
+    "imgSrc": "images/laptop_rftgyhju_1727700598854-sm-webp.webp",
+    "specs": "i5 7800H|GF 4050",
+    "price": "4299 BGN"
+  },
+  {
+    "stockName": "IDE PAd Slim %",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-slim-5-16imh9-666694.webp",
+    "specs": "i5 2354|Intel UHD 340",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "IDE Pag Gaming 5",
+    "imgSrc": "images/laptop_enter-lenovo-ideapad-gaming-3-15ach6-8urk-382574.webp",
+    "specs": "AMD5 5600H|GF 2080",
+    "price": "1999 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 15",
+    "imgSrc": "images/apple-iphone-15-blue.webp",
+    "specs": "2 GB RAM|512 GB ROM",
+    "price": "1499 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 15",
+    "imgSrc": "images/apple-iphone-15-pink.webp",
+    "specs": "2 GB RAM|512 GB ROM",
+    "price": "1499 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi Note 13",
+    "imgSrc": "images/redmi-note-13.webp",
+    "specs": "6 GB RAM|64 GB ROM",
+    "price": "519 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 12",
+    "imgSrc": "images/apple-iphone-12-black.webp",
+    "specs": "2 GB RAM|128 GB ROM",
+    "price": "999 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 13 Pro Max",
+    "imgSrc": "images/enter-apple-iphone-15-pro-max-blue-tittan.webp",
+    "specs": "2 GB RAM|256 GB ROM",
+    "price": "1499 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy Note A12",
+    "imgSrc": "images/samsung_galaxy_a54_black.webp",
+    "specs": "2 GB RAM|32 GB ROM",
+    "price": "369 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi Note 13",
+    "imgSrc": "images/redmi-note-13-black.webp",
+    "specs": "6 GB RAM|226 GB ROM",
+    "price": "519 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy S24",
+    "imgSrc": "images/samsung-galaxy-s-24-ultra.webp",
+    "specs": "12 GB RAM|512 GB ROM",
+    "price": "2619 BGN"
+  },
+  {
+    "stockName": "Poco X6 Pro",
+    "imgSrc": "images/poco-x6-pro.webp",
+    "specs": "6 GB RAM|512 GB ROM",
+    "price": "549 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy A55",
+    "imgSrc": "images/samsung_galaxy_a54_black.webp",
+    "specs": "6 GB RAM|128 GB ROM",
+    "price": "632 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi Note 9",
+    "imgSrc": "images/xiaomi-redmi-note-9-4g.webp",
+    "specs": "6 GB RAM|64 GB ROM",
+    "price": "459 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi 10 C",
+    "imgSrc": "images/xiaomi-redmi-9c-black.webp",
+    "specs": "2 GB RAM|32 GB ROM",
+    "price": "329 BGN"
+  },
+  {
+    "stockName": "Realme C21Y",
+    "imgSrc": "images/realme-c25y-4g.webp",
+    "specs": "2 GB RAM|32 GB ROM",
+    "price": "259 BGN"
+  },
+  {
+    "stockName": "Realme 10 4G",
+    "imgSrc": "images/enter-realme-10.webp",
+    "specs": "2 GB RAM|128 GB ROM",
+    "price": "459 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi Note 13 Pro+",
+    "imgSrc": "images/xiaomi-redmi-note-13-pro-plus.webp",
+    "specs": "6 GB RAM|512 GB ROM",
+    "price": "859 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy A34",
+    "imgSrc": "images/samsung_galaxy_a12_red.webp",
+    "specs": "4 GB RAM|128 GB ROM",
+    "price": "259 BGN"
+  },
+  {
+    "stockName": "OmePlus Nord CE 5G",
+    "imgSrc": "images/oneplus-nord-ce-5g-5g.webp",
+    "specs": "12 GB RAM|512 GB ROM",
+    "price": "829 BGN"
+  },
+  {
+    "stockName": "Poco M6 Pro",
+    "imgSrc": "images/poco-x6-pro.webp",
+    "specs": "4 GB RAM|64 GB ROM",
+    "price": "659 BGN"
+  },
+  {
+    "stockName": "Google Pixel 8 Pro",
+    "imgSrc": "images/enter-google-pixel-8-pro.webp",
+    "specs": "12 GB RAM|512 GB ROM",
+    "price": "1059 BGN"
+  },
+  {
+    "stockName": "Asus ZenPhone 9",
+    "imgSrc": "images/enter-asus-zenfone-9-5g-ai2202.webp",
+    "specs": "12 GB RAM|512 GB ROM",
+    "price": "1599 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 12",
+    "imgSrc": "images/apple-iphone-12-black.webp",
+    "specs": "2 GB RAM|256 GB ROM",
+    "price": "1099 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy A34",
+    "imgSrc": "images/samsung_galaxy_a12_red.webp",
+    "specs": "6 GB RAM|256 GB ROM",
+    "price": "259 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi 10 C",
+    "imgSrc": "images/xiaomi-redmi-9c-black.webp",
+    "specs": "12 GB RAM|128 GB ROM",
+    "price": "259 BGN"
+  },
+  {
+    "stockName": "OmePlus Nord CE 5G",
+    "imgSrc": "images/oneplus-nord-ce-5g-5g.webp",
+    "specs": "6 GB RAM|512 GB ROM",
+    "price": "459 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 15",
+    "imgSrc": "images/apple-iphone-15-blue.webp",
+    "specs": "4 GB RAM|256 GB ROM",
+    "price": "1599 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 15",
+    "imgSrc": "images/apple-iphone-15-pink.webp",
+    "specs": "2 GB RAM|512 GB ROM",
+    "price": "1599 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi Note 13",
+    "imgSrc": "images/redmi-note-13.webp",
+    "specs": "6 GB RAM|128 GB ROM",
+    "price": "659 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 12",
+    "imgSrc": "images/apple-iphone-12-black.webp",
+    "specs": "12 GB RAM|512 GB ROM",
+    "price": "1099 BGN"
+  },
+  {
+    "stockName": "Apple iPhone 13 Pro Max",
+    "imgSrc": "images/enter-apple-iphone-15-pro-max-blue-tittan.webp",
+    "specs": "2 GB RAM|512 GB RAM",
+    "price": "1399 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy Note A12",
+    "imgSrc": "images/samsung_galaxy_a54_black.webp",
+    "specs": "2GB RAM|32 GB ROM",
+    "price": "259 BGN"
+  },
+  {
+    "stockName": "Xiaomi Redmi Note 13",
+    "imgSrc": "images/redmi-note-13-black.webp",
+    "specs": "6 GB RAM|256 GB ROM",
+    "price": "659 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy S24",
+    "imgSrc": "images/samsung-galaxy-s-24-ultra.webp",
+    "specs": "12 GB RAM|512 GB ROM",
+    "price": "2599 BGN"
+  },
+  {
+    "stockName": "Air Pods 2",
+    "imgSrc": "images/enter-casti-apple-airpods-2-white-12158898.webp",
+    "specs": "Безжични",
+    "price": "259 BGN"
+  },
+  {
+    "stockName": "Air Pods 3",
+    "imgSrc": "images/enter-casti-apple-airpods-3-white-16005232.webp",
+    "specs": "Безжични",
+    "price": "299 BGN"
+  },
+  {
+    "stockName": "JBL T110",
+    "imgSrc": "images/enter-casti-jbl-t110-black-12066779.webp",
+    "specs": "Жични",
+    "price": "359 BGN"
+  },
+  {
+    "stockName": "JBL T500",
+    "imgSrc": "images/enter-casti-jbl-t500-black-1242516.webp",
+    "specs": "Жични",
+    "price": "49 BGN"
+  },
+  {
+    "stockName": "Air Pods Pro 2",
+    "imgSrc": "images/enter-casti-apple-airpods-pro-2nd-generation-gray-white-321716.webp",
+    "specs": "Безжични",
+    "price": "19 BGN"
+  },
+  {
+    "stockName": "Marshal Major IV",
+    "imgSrc": "images/enter-casti-marshall-major-iv-black-1792375.webp",
+    "specs": "Безжични",
+    "price": "219 BGN"
+  },
+  {
+    "stockName": "Marshal Major IV",
+    "imgSrc": "images/enter-casti-marshall-major-iv-brown-12838414.webp",
+    "specs": "Безжични",
+    "price": "29 BGN"
+  },
+  {
+    "stockName": "Realme Buds Air Pro",
+    "imgSrc": "images/enter-casti-realme-buds-air-pro-white-12463315.webp",
+    "specs": "Безжични",
+    "price": "89 BGN"
+  },
+  {
+    "stockName": "Mi Earphones 2",
+    "imgSrc": "images/enter-casti-xiaomi-mi-earphones-2-basic-white-12163943.webp",
+    "specs": "Безжични",
+    "price": "89 BGN"
+  },
+  {
+    "stockName": "Xiaomi Lye",
+    "imgSrc": "images/enter-casti-xiaomi-lyej05lm-white-12476978.webp",
+    "specs": "Безжични",
+    "price": "14 BGN"
+  },
+  {
+    "stockName": "Sven E335T",
+    "imgSrc": "images/enter-casti-sven-e-335bt-black-2668249.webp",
+    "specs": "Безжични",
+    "price": "54 BGN"
+  },
+  {
+    "stockName": "Sony WH1000XM4",
+    "imgSrc": "images/enter-casti-sony-sony-wh-1000xm4-silver-740719.webp",
+    "specs": "Безжични",
+    "price": "29 BGN"
+  },
+  {
+    "stockName": "Piston Basic",
+    "imgSrc": "images/enter-casti-xiaomi-piston-basic-edition-black-12173323.webp",
+    "specs": "Жични",
+    "price": "23 BGN"
+  },
+  {
+    "stockName": "Redmi Buds 3 Pro",
+    "imgSrc": "images/enter-casti-xiaomi-redmi-buds-3-pro-black-4107110.webp",
+    "specs": "Безжични",
+    "price": "279 BGN"
+  },
+  {
+    "stockName": "Marshal Major IV",
+    "imgSrc": "images/enter-casti-marshall-major-iv-brown-12838414.webp",
+    "specs": "Безжични",
+    "price": "1419 BGN"
+  },
+  {
+    "stockName": "Realme Buds Air Pro",
+    "imgSrc": "images/enter-casti-realme-buds-air-pro-white-12463315.webp",
+    "specs": "Безжични",
+    "price": "49 BGN"
+  },
+  {
+    "stockName": "Xiaomi Mi Band 7",
+    "imgSrc": "images/enter-xiaomi-mi-band-7-071.webp",
+    "specs": "1.7\"|До 150 часа",
+    "price": "59 BGN"
+  },
+  {
+    "stockName": "Xiaomi Mi Band 8",
+    "imgSrc": "images/enter-xiaomi-mi-smart-band-8-256628.webp",
+    "specs": "1.8\"|До 150 часа",
+    "price": "69 BGN"
+  },
+  {
+    "stockName": "Elari Kid Phone GPS",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-kidphone-2-16386187.webp",
+    "specs": "1.5\"|До 72 часа",
+    "price": "149 BGN"
+  },
+  {
+    "stockName": "Elari Kid Phone GPS",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-kidphone-2-17771019.webp",
+    "specs": "1.6\"|До 72 часа",
+    "price": "149 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy Watch 4 Classic",
+    "imgSrc": "images/samsung_watch4_classic_silver_44_2_1628774309818-sm-webp.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "Amazfit GTR 2",
+    "imgSrc": "images/enter-ceas-inteligent-amazfit-gtr-2-40590.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "99 BGN"
+  },
+  {
+    "stockName": "Apple Watch SE 2022",
+    "imgSrc": "images/enter-ceas-inteligent-apple-watch-se-2022-141090.webp",
+    "specs": "1.9\"|До 48 часа",
+    "price": "1499 BGN"
+  },
+  {
+    "stockName": "Elari Kid Phone GPS",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-kidphone-2-17771019.webp",
+    "specs": "1.6\"|До 73 часа",
+    "price": "139 BGN"
+  },
+  {
+    "stockName": "Xiaomi Mi Band 7 Pro",
+    "imgSrc": "images/enter-xiaomi-mi-band-7-pro-14944954.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "99 BGN"
+  },
+  {
+    "stockName": "ELari KidPhone 4GR GPS",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-kidphone-4gr-096.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "99 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy Watch 4 Classic",
+    "imgSrc": "images/samsung_watch4_classic_silver_42_2_1628773392206-sm-webp.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "ELari 4G Wink",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-4g-wink-1854729.webp",
+    "specs": "2.0\"|До 128 часа",
+    "price": "119 BGN"
+  },
+  {
+    "stockName": "Apple Watch SE 2022",
+    "imgSrc": "images/enter-ceas-inteligent-apple-watch-se-2022-141090.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "Samsung Galaxy Watch 4 Classic",
+    "imgSrc": "images/samsung_watch4_classic_silver_42_2_1628773392206-sm-webp.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "1299 BGN"
+  },
+  {
+    "stockName": "ELari 4G Wink",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-4g-wink-1854729.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "129 BGN"
+  },
+  {
+    "stockName": "Elari Kid Phone GPS",
+    "imgSrc": "images/enter-ceas-pentru-copii-cu-gps-elari-kidphone-2-16386187.webp",
+    "specs": "1.8\"|До 72 часа",
+    "price": "129 BGN"
+  },
+  {
+    "stockName": "Pixel Fold",
+    "imgSrc": "images/pixel-black.png",
+    "specs": "16Ram| 512Rom",
+    "price": "3000 BGN"
+  }
+]

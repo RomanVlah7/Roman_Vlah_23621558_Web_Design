@@ -1,0 +1,449 @@
+/* Основен стил */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive дизайн */
+@media screen and (min-width: 300px) {
+    .content {
+        font-size: 13px;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header-main {
+        background-color: black;
+        width: auto;
+        height: 2rem;
+        display: flex;
+    }
+
+    .header-text {
+        margin: auto;
+        font-size: 0.8rem;
+        color: #b6b6b6;
+    }
+
+    .header-body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .header-body a {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 0.5rem;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    .content {
+        font-size: 14px;
+    }
+
+    .header-main {
+        background-color: black;
+        width: auto;
+        height: 2rem;
+        display: flex;
+    }
+
+    .header-text {
+        margin: auto;
+        font-size: 0.8rem;
+        color: #b6b6b6;
+    }
+
+    .header-body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .header-body a {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .content {
+        font-size: 15px;
+    }
+    .container {
+        padding: 10px;
+    }
+
+    .header-main {
+        background-color: black;
+        width: auto;
+        height: 2rem;
+        display: flex;
+    }
+
+    .header-text {
+        margin: auto;
+        font-size: 0.8rem;
+        color: #b6b6b6;
+    }
+
+    .header-body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .header-body a {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 1rem;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .content {
+        font-size: 16px;
+    }
+    .header, .footer {
+        padding: 15px;
+    }
+
+    .header-main {
+        background-color: black;
+        width: auto;
+        height: 2rem;
+        display: flex;
+    }
+
+    .header-text {
+        margin: auto;
+        font-size: 0.8rem;
+        color: #b6b6b6;
+    }
+
+    .header-body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        display: flex;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .content {
+        font-size: 18px;
+    }
+
+    .header-main {
+        background-color: black;
+        width: auto;
+        height: 2rem;
+        display: flex;
+    }
+
+    .header {
+        background-color: black;
+        width: auto;
+        height: 2rem;
+        display: flex;
+    }
+
+    .header-text {
+        margin: auto;
+        font-size: 0.8rem;
+        color: #b6b6b6;
+    }
+
+    .header-img{
+        height: 90%
+    }
+
+    .header-body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        display: flex;
+    }
+
+    .header-body a {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 1rem;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and (min-width: 2000px) {
+    .container {
+        padding: 40px;
+    }
+
+    .header-main {
+        background-color: black;
+        width: auto;
+        height: 3rem;
+        display: flex;
+    }
+
+    .header-text {
+        margin: auto;
+        font-size: 1.5rem;
+        color: #b6b6b6;
+    }
+
+    .header-body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        display: flex;
+    }
+
+    .header-body a {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 1rem;
+    }
+
+    .footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+
+
+
